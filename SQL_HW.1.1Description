@@ -1,0 +1,32 @@
+1. Display all fields and all lines.
+  2. Display all students in the table
+  3. Display only user IDs
+  4. Display only the username
+  5. Display only user emails
+  6. Display username and email
+  7. Display id, name, email and creation date of users
+  8. Display users where password is 12333
+  9. Display users who were created 2021-03-26 00:00:00
+  10. Display users where the name contains the word Anna
+  11. Display users where there is 8 in the name at the end
+  12. Display users where in the name in there is a letter a
+  13. Display users who were created 2021-07-12 00:00:00
+  14. Display users who were created on 2021-07-12 00:00:00 and have a password of 1m313
+  15. Display users who were created on 2021-07-12 00:00:00 and whose name contains the word Andrey
+  16. Display users who were created on 2021-07-12 00:00:00 and who have the number 8 in their name
+  17. Display the user whose id is 110
+  18. Display the user whose id is 153
+  19. Display user whose id is greater than 140
+  20. Display user whose id is less than 130
+  21. Display user whose id is less than 127 or greater than 188
+  22. Display user whose id is less than or equal to 137
+  23. Display user whose id is greater than or equal to 137
+  24. Display user whose id is greater than 180 but less than 190
+  25. Display user whose id is between 180 and 190
+  26. Display users where password is 12333, 1m313, 123313
+  27. Display users where created_on is 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00
+  28. Display the minimum id
+  29. Display the maximum.
+  30. Display the number of users
+  31. Display user id, name, user creation date. Sort in ascending order by the date the user was added.
+  32. Display user id, name, user creation date. Sort in descending order by the date the user was added.

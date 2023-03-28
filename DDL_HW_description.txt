@@ -1,0 +1,34 @@
+employees table
+Create the employees table
+- id. serial, primary key,
+- employee_name. Varchar(50), not null
+Populate the employee table with 70 rows.
+
+
+salary table
+Create salary table
+- id. serial key,
+- monthly_salary. Int, not null
+Populate salary table with 15 rows
+
+employee_salary table
+Create table employee_salary
+- id. serial key,
+- employee_id. Int, not null, unique
+- salary_id. Int, not null
+Populate the employee_salary table with 40 rows:
+- in 10 lines out of 40 insert non-existent employee_id
+
+roles table
+Create roles table
+- id. serial key,
+- role_name. int, not null, unique
+Change column type role_name from int to varchar(30)
+Populate the roles table with 20 rows
+
+roles_employee table
+Create table roles_employee
+- id. serial key,
+- employee_id. Int, not null, unique (foreign key for employees table, id field)
+- role_id. Int, not null (foreign key for roles table, id field)
+Fill table roles_employee with 40 rows
